@@ -33,6 +33,18 @@ img {
 }
 
 /* Card */
+
+a.card-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in;
+}
+
+a.card-link:hover {
+    opacity: 0.9;
+    transform: translateY(-5px);
+}
+
 .card {
     position: relative;
     width: 270px;
@@ -72,12 +84,12 @@ img {
 
 
 .card__content {
-    padding: 15px 15px 20px;
+    padding: 16px 15px 20px;
 }
 
 .card__title {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     font-weight: bold;
     font-size: 18px;
     line-height: 1.16;
@@ -85,14 +97,14 @@ img {
 }
 
 .card__term {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     font-size: 14px;
     line-height: 1.14;
     color: #000000;
 }
 
 .card__metro {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     font-size: 14px;
     line-height: 1.14;
     color: #000000;
