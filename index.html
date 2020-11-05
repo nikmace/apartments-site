@@ -11,7 +11,7 @@
     
     <div class="container">
         <div class="row">
-            <main class="main">
+            <main class="main cards-holder">
                 <!-- Card -->
                 <a class="card-link" href="#">
                     <div class="card">
@@ -183,9 +183,34 @@
                     </div>
                 </a>
                 <!-- // Card -->
+                <button class="btn-more">
+                    <img src="./images/icons/plus.svg" alt="">
+                    Показать еще
+                </button>
             </main>
             <aside class="sidebar">
-
+                <!-- Widget -->
+                <div class="widget">
+                    <div class="widget__title">
+                        Близость к метро
+                    </div>
+                    <div class="widget__body">
+                        <!-- Location -->
+                        <div class="location">
+                            <div class="location__row">
+                                <button class="location__btn location__btn--active">&lt;10</button>
+                                <button class="location__btn location__btn--active">10-20</button>
+                                <button class="location__btn">20-30</button>
+                                <button class="location__btn">30+</button>
+                            </div>
+                            <div class="location__row">
+                                <button class="location__btn">Любая</button>
+                            </div>
+                        </div>
+                        <!-- // Location -->
+                    </div>
+                </div>
+                <!-- // Widget -->
             </aside>
         </div>
     </div>

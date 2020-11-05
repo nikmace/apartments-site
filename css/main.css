@@ -32,6 +32,16 @@ img {
     width: 270px;
 }
 
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-holder > .card-link {
+    margin-bottom: 30px;
+}
+
 /* Card */
 
 a.card-link {
@@ -128,4 +138,118 @@ a.card-link:hover {
     color: #777777;
 }
 
+/* Button More */
 
+.btn-more {
+    width: 100%;
+    height: 80px;
+
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    border: none;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4290c9;
+
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.btn-more:hover {
+    background: #cccccc;
+}
+
+.btn-more img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+    height: 20px;
+}
+
+/* Sidebar */
+.widget {
+
+}
+
+.widget__title {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.widget__title::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: red;
+    background-image: url("./../images/icons/simple-down.svg");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+}
+
+.widget__body {
+
+}
+
+/* Location buttons group */
+
+.location {
+
+}
+
+.location__row {
+    display: flex;
+}
+
+.location__row:first-child {
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    border: 1px solid #D6D6D6;
+}
+
+.location__row:last-child {
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+}
+
+.location__btn {
+    font-family: inherit;
+    height: 50px;
+    padding: 0 15px;
+    background-color: transparent;
+    border: none;
+    flex-grow: 1;
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.location__btn:hover {
+    background-color: #ffd0268c;
+}
+
+.location__btn--active {
+    background-color: #FFCF26;
+}
+
+.location__btn--active:hover {
+    background-color: #;
+}
