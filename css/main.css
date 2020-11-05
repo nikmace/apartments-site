@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F4F4F4;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+
+}
+
+.main {
+    width: 870px;
+}
+
+.sidebar {
+    width: 270px;
+}
